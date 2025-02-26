@@ -18,7 +18,7 @@ Sprint Goal: have some integrated back end.
 | Demod download and delete feature | Integrate backend    |
 | Demod login and registration and emergency contact information form | UI improvement needed  |
 | Email progress | consider using gmail smpt instead  |
-| improved front end design | looks better and functional  |
+|Improved front end design | looks better and functional  |
 
 
 
@@ -67,6 +67,17 @@ Sprint Goal: have some integrated back end.
 | ------------| ----------------| ----------------| -----------|
 |007-1 | implement database structure for storing user data |Isaac | No |
 
+Frontend
+| **Task ID** | **Description** | **Assigned To** | **Done?**| 
+|001-5| Implement new UI design | Jamima | Yes |
+|001-6 | Implement user experince| Jamima | Yes |
+
+Backend
+| **Task ID** | **Description** | **Assigned To** | **Done?**| 
+|002-4| Started springboot setup | Jamima | Yes |
+
+
+
 ### New/Revised Tasks
 
 **Instructions:** Add any new tasks coming from the review that wasn't previously in the backlog. Below is an example. Remove the example and add yours.
@@ -88,6 +99,15 @@ Sprint Goal: have some integrated back end.
 | 007-1 | Implement UI button for deleting user data |
 | 007-2 | when downloading data users can open a json file |
 
+
+Backend
+| **Task ID** | **Description** |  Story point | Assigned to
+| 002-6 | Develop initial API endpoints| 8| Jamima
+|002-7 | Integrate database with backend |8| Jamima 
+
+Frontend 
+|001-7| Connect frontend with backend API | 8 |Jamima
+|001-8| Add error handling and validation | 5| Jamima
 
 
 
@@ -156,6 +176,18 @@ user can downloiad their data in a json/PDF file
 |008-2| log the user/instance of deletion | 5 | Isaac |
 
 
+Backend 
+| **Task ID** | **Description** | **Story Point** | **Assigned To** |
+|002-6| Develop initial API endpoints | 8 | Jamima|
+|002-7| Integrate database with backend |8|Jamima
+
+Frontend
+| **Task ID** | **Description** | **Story Point** | **Assigned To** |
+001-7| Connect frontend with backend API| 8| Jamima 
+001-8 | Add error handling and validation | 5 |Jamima 
+001-9 | Test full front end and backend integration | 8| Jamima
+
+
 # Appendix - Project Backlog
 
 
@@ -167,4 +199,6 @@ user can downloiad their data in a json/PDF file
 | downloading data | 007    | User | downlaod my data  | i can view it on a PDF | F | High |
 | deleting user data | 008    | User | delete my data | the organisation doesnt have any of my information | F | High |
 
+| Goal tracking | 001    |  User | Set and track goals  | I can measure my progress wihtin the app  | F|      High |
+|   Journaling       | 003  | User | Write and view journal entries with prompts |I have guidance on what to write and can reflect easily| F | High |
 
