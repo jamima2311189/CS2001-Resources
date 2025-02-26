@@ -1,11 +1,11 @@
 # **Project Progress [Number]**
 
-### Group number
+### Group number 20
 
-### Contributors
+### Contributors Jamima
 
 
-# Sprint [Number] - Review and Retrospective
+# Sprint 2 - Review and Retrospective
 
 ### Sprint Review
 
@@ -13,84 +13,73 @@
 
 Sprint Goal: ***
 
-| Demoed Feature | Feedback   |
-|----------------|------------|
-| *              | *          |
+| Demoed Feature                        | Feedback   |           
+| Improved frontend design              | Looks better and is functional |        
+| Initial backend setup with springboot | Backend development is processing well|
 
-#### **Completed Tasks**
+#### **Completed Tasks*
 
-**Instructions:** Document completed tasks for each item in your sprint backlog as shown below, i.e., each user story you have decided to implement in your sprint. (Remove example/instruction before you submit.)
-
-
-####  Epic-User Story ID (Example: User registration - 001)
- **Acceptance criteria:**
- A new allotment user can save username, password, preferences for food items and preferred allotment locations.
-
+Frontend
 | **Task ID** | **Description** | **Assigned To** | **Done?**| 
-| ------------| ----------------| ----------------| -----------|
-|001-1 Database| Implement data model and data repository for allotment users| Seona | Yes |
-|001-2 Backend | Implement API for registering allotment users|Seona | Yes |
-|001-3 Frontend| Create a registration form for allotment users in React | Clemence| No |
+|001-5| Implement new UI design | Jamima | Yes |
+|001-6 | Implement user experince| Jamima | Yes |
+
+Backend
+| **Task ID** | **Description** | **Assigned To** | **Done?**| 
+|002-4| Started springboot setup | Jamima | Yes |
+
 
 ### New/Revised Tasks
+Backend
 
-**Instructions:** Add any new tasks coming from the review that wasn't previously in the backlog. Below is an example. Remove the example and add yours.
+| **Task ID** | **Description** |  Story point | Assigned to
 
-####  Epic-User Story ID (Example: User registration - 001)
+Backend
+| 002-6 | Develop initial API endpoints| 8| Jamima
+|002-7 | Integrate database with backend |8| Jamima 
 
-| **Task ID** | **Description** |
-|-------------|-----------------|
-| 001-3 UI | The registration form for allotment users in React should show a drop-down list for preferred food items.
+Frontend
+|001-7| Connect frontend with backend API | 8 |Jamima
+|001-8| Add error handling and validation | 5| Jamima
+
+
 
 ### Sprint Retrospective
 
-#### **Discussion**
 
-**Instructions:** Below is a simple retrospective template. You 
-can use others referenced from your Deliverables sheet. (Remove
-instruction before submission.)
-
-| What went well | What could have gone better | What will we do differently?|
-|----------------|-----------------------------|-------------|
-|*               | *                           | *           |
+| What went well         | What could have gone better      | What will we do differently?|
+| Improved frontend design | Backends still need more works  |Allocate more time to backend implementation|
+|Started backend implementation | Needs to optimize backend development process| Priortize backenf integration earlier 
 
 
 
-# Sprint [x] Plan
+# Sprint 3 Plan
 
-**Instructions:** Add your sprint goal, sprint leads, and fill the spring backlog. (Remove the instructions before submission.)
 
 ### Sprint Goal
+Continue backend development and integrate it with frontend
 
-### Sprint Leads
+### Sprint Leads Jamima 
 
 ### Sprint Backlog
 
-**Instructions:** Fill in your sprint backlog for each user story you have decided to implement in your sprint. Below is an example for how User Registration-001 is modified in the new Sprint backlog.  Remove the example, and fill it with user stories from project backlog (that serves the sprint goal), adding more sub-headings and tables as necessary. (Remove the instructions before submission.)
-
-1.  Epic-User Story ID (Example: User registration - 001)
- **Acceptance criteria:**
- A new allotment user can save username, password, preferences for food items and preferred allotment locations.
+Backend 
 
 | **Task ID** | **Description** | **Story Point** | **Assigned To** |
-| ------------| ----------------| ----------------| ----------------|
-|001-3 Frontend| Create a registration form for allotment users in React | 8 | Clemence|
+|002-6| Develop initial API endpoints | 8 | Jamima|
+|002-7| Integrate database with backend |8|Jamima
 
-2. Epic-User Story ID...
+Frontend
+| **Task ID** | **Description** | **Story Point** | **Assigned To** |
+001-7| Connect frontend with backend API| 8| Jamima 
+001-8 | Add error handling and validation | 5 |Jamima 
+001-9 | Test full front end and backend integration | 8| Jamima 
 
 
 # Appendix - Project Backlog
 
-*Instructions:** Remove the example, and fill it with your project backlog. In the example, we kept User Registration - 001 as not all of its tasks are complete. The review also added a revision on how the form should collect users' preferred food items. (Remove the instructions before submission)
 
-| Epic              | US ID* | As a .. | I want to .. | So that ... | F/NF/UI** | Priority|
-| ----------------- | ------ | ------------- | ------- | ------- |-------- | ----- |
-| User registration | 001    | Allotment user | Create an account | I can save a profile of my preferences | F | High |
-|                   | 002    | Allotment user | Locate the best allotments on a map | I can choose the right ones during registration | UI | Low |
-|                   | 003    | User | Have access to the site 99.99% of the time | I do not get frustrated with user experience | NF | Low*** |
+| Epic        | US ID* | As a .. | I want to ..            | So that ...                   | F/NF/UI**       | Priority|
+| Goal tracking | 001    |  User | Set and track goals  | I can measure my progress wihtin the app  | F|      High |
+|   Journaling       | 003  | User | Write and view journal entries with prompts |I have guidance on what to write and can reflect easily| F | High |
 
-*User Story ID
-
-**F/NF/UI - Functional/Non-Functional/User Interface
-
-***You may have prioritised this low, as you are not planning production yet.
