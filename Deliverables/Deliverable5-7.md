@@ -19,6 +19,7 @@ Sprint Goal: have some integrated back end.
 | Demod login and registration and emergency contact information form | UI improvement needed  |
 | Email progress | consider using gmail smpt instead  |
 | improved front end design | looks better and functional  |
+| Initial backend setup with springboot | Backend development has started|
 
 
 
@@ -67,6 +68,16 @@ Sprint Goal: have some integrated back end.
 | ------------| ----------------| ----------------| -----------|
 |007-1 | implement database structure for storing user data |Isaac | No |
 
+|**Task ID**| **Description**| **Assigned To**| **Done?**|
+  | 001-5 |   Implemented new UI design | Jamima | Yes
+  |001 -6| Improved user experience | Jamima | Yes
+
+  Backend 
+  |002-4 | Started spring boot setup | Jamima | Yes
+  
+
+
+
 ### New/Revised Tasks
 
 **Instructions:** Add any new tasks coming from the review that wasn't previously in the backlog. Below is an example. Remove the example and add yours.
@@ -87,6 +98,19 @@ Sprint Goal: have some integrated back end.
 |-------------|-----------------|
 | 007-1 | Implement UI button for deleting user data |
 | 007-2 | when downloading data users can open a json file |
+
+#### Epic User Story ID Journaling and Goal tracking
+|-------------|-----------------|
+
+Backend
+|002-6| Develop initial API endpoints | 8|Jamima
+|002-7 | Integrate database with backend| 8|Jamima 
+
+Frontend 
+|001-7| Connect frontend with backend API| 8|Jamima 
+|001-8|Add error handling and validation | 5|Jamima 
+
+
 
 
 
@@ -155,6 +179,20 @@ user can downloiad their data in a json/PDF file
 |008-1| implement database where users can delete that information | 8 | Isaac |
 |008-2| log the user/instance of deletion | 5 | Isaac |
 
+6. Epic user story ID users creating and saving the entries and goals 002
+**Acceptance criteria:**
+user can create and save their journal entries and goals (Backend)
+| **Task ID** | **Description** | **Story Point** | **Assigned To** |
+| ------------| ----------------| ----------------| ----------------|
+|002 - 6 | Develop inital API endpoints | 8| Jamima 
+|002-7| Integrate database with backend | 8| Jamima 
+
+7. Frontend 001
+| **Task ID** | **Description** | **Story Point** | **Assigned To** |
+| ------------| ----------------| ----------------| ----------------|
+001 -7 | Connect frontend with backend API | 8| Jamima 
+001-8 |Test full frontend backend integration | 8| Jamima 
+   
 
 # Appendix - Project Backlog
 
@@ -165,6 +203,8 @@ user can downloiad their data in a json/PDF file
 | User login | 002    | User | Have an nice and clear user interface when loging in | the application is easier to use | F | High |
 | Emergency contact information | 002    | User | Have an nice and clear user interface filling out emergency contact information | the application is easier to use | F | High |
 | downloading data | 007    | User | downlaod my data  | i can view it on a PDF | F | High |
-| deleting user data | 008    | User | delete my data | the organisation doesnt have any of my information | F | High |
+| deleting user data | 008    | User | delete my data | the organisation doesnt have any of my information | F | High 
+|Goal Tracking | 001 | User| Set and tracking goals | I can measure my progress within the app| F| High 
+|Journaling| 002 | User | Write journal entries with prompts | I have guidance on what to write and can reflect easily| F| High
 
 
