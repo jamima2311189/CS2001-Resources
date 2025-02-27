@@ -69,8 +69,9 @@ Sprint Goal: have some integrated back end.
 |007-1 | implement database structure for storing user data |Isaac | No |
 
 |**Task ID**| **Description**| **Assigned To**| **Done?**|
-  | 001-5 |   Implemented new UI design | Jamima | Yes
-  |001 -6| Improved user experience | Jamima | Yes
+| ------------| ----------------| ----------------| -----------|
+| 001-5 |   Implemented new UI design | Jamima | Yes |
+|001 -6| Improved user experience | Jamima | Yes |
 
   Backend 
   |002-4 | Started spring boot setup | Jamima | Yes
