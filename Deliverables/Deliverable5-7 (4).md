@@ -72,10 +72,7 @@ Sprint Goal: have some integrated back end.
 | ------------| ----------------| ----------------| -----------|
 | 001-5 |   Implemented new UI design | Jamima | Yes |
 |001 -6| Improved user experience | Jamima | Yes |
-
-  Backend 
-  | ------------| ----------------| ----------------| -----------|
-  |002-4 | Started spring boot setup | Jamima | Yes |
+|002-4 | Started spring boot setup | Jamima | Yes |
   
 
 
